@@ -40,6 +40,8 @@ class ScopeSetting extends \Magento\Framework\App\Helper\AbstractHelper
     protected $_moduleList;
     protected $_configWriter;
 
+    protected $_storeId;
+
     public function __construct(
         \Magento\Framework\App\Helper\Context $context,
         \Magento\Framework\App\State $state,
