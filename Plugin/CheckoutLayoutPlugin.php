@@ -9,9 +9,9 @@ use Magento\Customer\Model\Session;
 class CheckoutLayoutPlugin
 {
     public function __construct(
-        private ScopeSetting $klaviyoScopeSetting,
-        private Session $customerSession,
-        private CustomerFactory $customerFactory
+        private ScopeSetting $_klaviyoScopeSetting,
+        private Session $_customerSession,
+        private CustomerFactory $_customerFactory
     ) {
     }
 
